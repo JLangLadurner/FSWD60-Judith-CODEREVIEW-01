@@ -8,9 +8,10 @@
 .container {
 	width: 100%;
 	margin: 0 auto;
+	background-color: white;
 	text-align: left;
 	font-family: "Muli"
-	background-color: lightgrey
+
 }
 /* navbar style */
 ul {
@@ -39,14 +40,16 @@ li a:hover {
 	color: black;
 }
 
-#Footer {
+.Footer {
    position: fixed;
-   margin: 0 auto;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+/*   background-color: red; */
+  color: black;
+  text-align: center;
 }
+
 #copy {
 	float: inherit;
 }
@@ -80,28 +83,29 @@ span {
 	font-size: 50px;
 }
 
-*{
+* {
 	box-sizing: border-box;
 }
+
 
 .Column {
 	float: left;
 	width: 50%;
-	padding: 50px;
-	/* border-style: solid;
-	border-color: maroon; */
+	padding: 0px;
+	border-style: solid;
+	border-color: maroon;
 }
 
-/* .row::after {
+.row::after {
 	content: "";
 	clear: both;
 	display: table;
-} */
+}
 
 figcaption{
 	display: block;
 	font-weight: bold;
-	font-size: 16px;
+	
 }
 
 .H3 {
@@ -111,15 +115,10 @@ figcaption{
 	color: white;
 }
 
-hr {
+.line {
 	float:  inherit;
 	color: #9B7C7C;
 	line-height: 2px;
 }
 
-.rowTop {
-	width: 70%;
-}
-.rowBottom {
-	width: 70%;
-}
+
