@@ -41,13 +41,14 @@ li a:hover {
 }
 
 .Footer {
-   position: fixed;
+	text-align: center;
+   /* position: fixed;
   left: 0;
   bottom: 0;
   width: 80%;
-/*   background-color: red; */
+  background-color: red;
   color: black;
-  text-align: center;
+  text-align: center; */
 }
 
 #copy {
@@ -67,10 +68,10 @@ li a:hover {
 img {
 	float: inherit;
 }
-span {
-	float: inherit;
+#title {
+	float: right;
 	font-size: 15px;
-	text-align:  center;
+	padding-right: 700px;
 	font-weight: bold;
 	padding-bottom: 15px;
 }
@@ -87,26 +88,27 @@ span {
 	box-sizing: border-box;
 }
 
-
+/* img gallery start */
 .Column {
 	float: left;
 	width: 50%;
 	padding: 0px;
-	border-style: solid;
-	border-color: maroon;
+	/* border-style: solid;
+	border-color: maroon; */
+	/* just hightlights Picture divs */
 }
 
 .row::after {
-	content: "";
-	clear: both;
-	display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 figcaption{
 	display: block;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
+/* img gallery end */
 
 .H3 {
 	width: 100%;
@@ -115,10 +117,9 @@ figcaption{
 	color: white;
 }
 
-.line {
-	float:  inherit;
+hr {
 	color: #9B7C7C;
-	line-height: 2px;
+	/* line-height: 20px; */
 }
 
 
