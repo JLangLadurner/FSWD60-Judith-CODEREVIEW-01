@@ -122,4 +122,13 @@ hr {
 	/* line-height: 20px; */
 }
 
+#about {
+	float: inherit;
+}
+
+span {
+	float: right;
+	display: block;
+}
+
 
