@@ -2,9 +2,9 @@
 	width: 100 %;
 	border-style: solid;
 	border-color: darkgreen;
-	border-width: 2px;
-	
+	border-width: 2px;	
 } */
+/* comments 'out' the border box for initial overview */
 .container {
 	width: 100%;
 	margin: 0 auto;
@@ -16,25 +16,22 @@
 /* navbar style */
 ul {
   list-style-type: none;
-  margin: 5px 5px 5px 5px;
+  margin: 5px 0px 5px 0px;
   overflow: hidden;
   background-color: maroon;
   padding: 5px 5px 5px 5px;
-  
-
-
 }
+
 li {
   display: inline;
 }
 
 li a {
-
  color: white;
  padding: 14px 16px;
  text-decoration: none;
- 
 }
+
 li a:hover {
 	background-color: lightgrey;
 	color: black;
@@ -55,9 +52,14 @@ li a:hover {
 	float: inherit;
 }
 
-/* #head {
-	background-color: lightgrey;
-} */
+/* inserted Sunday */
+.hero {
+	
+	background-image:url("IMG/binary.jpg");
+	color: white;
+	/* background-repeat: no-repeat; */
+}
+
 #logoTop {
 	width: 100%;
 	background-color: lightgrey;
@@ -124,11 +126,24 @@ hr {
 
 #about {
 	float: inherit;
+
 }
 
 span {
-	float: right;
+	float: left;
 	display: block;
 }
 
+/* add Sunday */
 
+.about {
+	margin-left: 900px;
+}
+
+p {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
