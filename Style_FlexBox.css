@@ -58,12 +58,6 @@ li a:hover {
 	background-image:url("IMG/binary.jpg");
 	color: white;
 	background-size: cover;
-	width: 100%;
-	padding: 15px 15px 15px 15px;
-	border: solid;
-	border-color: White;
-	text-align: center;
-	font-size: 50px;
 }
 
 #logoTop {
@@ -83,21 +77,16 @@ img {
 	font-weight: bold;
 	padding-bottom: 15px;
 }
-
-/* revised Css this hero not necessary */
-
-./* hero {
+.hero {
 	width: 100%;
 	padding: 15px 15px 15px 15px;
 	border: solid;
 	border-color: White;
 	text-align: center;
 	font-size: 50px;
-} */
-
-
+}
 /* img gallery start */
-* {
+/* * {
 	box-sizing: border-box;
 }
 
@@ -107,19 +96,19 @@ img {
 	padding: 0px;
 	/* border-style: solid;
 	border-color: maroon; */
-	/* just hightlights Picture divs */
-}
+	/* just hightlights Picture divs
+} */
 
-.row::after {
+/* .row::after {
   content: "";
   clear: both;
   display: table;
-} 
+}  */
 
-figcaption{
+/* figcaption{
 	display: block;
 	font-weight: bold;	
-} 
+}   */
 /* img gallery end */
 
 .H3 {
@@ -151,7 +140,7 @@ p {
 .about {
 	margin-left: 900px;
 }
-/* add Sunday - see Style_FlexBox.css
+/* add Sunday - see Style_FlexBox.css */
 
 h3 {
 	text-align: center;
@@ -166,23 +155,5 @@ h3 {
 .rowtwo {
 	display: flex;
 	justify-content: space-around;
-}
- */
-
-.contact {
-	background-image:url("IMG/Contact.jpg");
-	color: white;
-	background-size: cover;
-	width: 100%;
-	padding: 15px 0px 0px 15px;
-	border: solid;
-	border-color: White;
-	text-align: center;
-	font-size: 50px;
-}
-
-.Form {
-	margin-left: 900px;
-	padding: 5px 5px 5px 5px;
 }
 
