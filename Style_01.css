@@ -57,7 +57,7 @@ li a:hover {
 	
 	background-image:url("IMG/binary.jpg");
 	color: white;
-	/* background-repeat: no-repeat; */
+	background-size: cover;
 }
 
 #logoTop {
@@ -91,25 +91,25 @@ img {
 }
 
 /* img gallery start */
-.Column {
+/* .Column {
 	float: left;
 	width: 50%;
 	padding: 0px;
-	/* border-style: solid;
-	border-color: maroon; */
-	/* just hightlights Picture divs */
-}
+	border-style: solid;
+	border-color: maroon;
+	/* just hightlights Picture divs
+} */
 
-.row::after {
+./* row::after {
   content: "";
   clear: both;
   display: table;
-}
+}  */
 
 figcaption{
 	display: block;
 	font-weight: bold;	
-}
+} 
 /* img gallery end */
 
 .H3 {
@@ -117,12 +117,13 @@ figcaption{
 	padding: .5px .5px .5px .5px;
 	background-color: #9B7C7C;
 	color: white;
+
 }
 
-hr {
+/* hr {
 	color: #9B7C7C;
-	/* line-height: 20px; */
-}
+	line-height: 20px;
+/* }  */
 
 #about {
 	float: inherit;
@@ -134,7 +135,7 @@ span {
 	display: block;
 }
 
-/* add Sunday */
+add Sunday
 
 .about {
 	margin-left: 900px;
@@ -147,3 +148,20 @@ p {
 h3 {
 	text-align: center;
 }
+
+.row {
+	flex: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.rowtwo {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+
+
